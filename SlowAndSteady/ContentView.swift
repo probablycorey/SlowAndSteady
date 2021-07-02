@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var recorder = ScreenRecorder()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Record the screen")
+                .font(.title)
+                .padding()
+                .foregroundColor(.green)
+            Button("Toggle") {
+                if (recorder.isRecording()) {
+                    recorder.stop()
+                    print("done")                    
+                } else {
+                    recorder.start()
+                }
+            }
+        }
+        .padding()
     }
 }
 

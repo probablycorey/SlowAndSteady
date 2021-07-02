@@ -11,6 +11,7 @@
 		164688C2268E67AF0002F6B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164688C1268E67AF0002F6B2 /* ContentView.swift */; };
 		164688C4268E67B00002F6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164688C3268E67B00002F6B2 /* Assets.xcassets */; };
 		164688C7268E67B00002F6B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164688C6268E67B00002F6B2 /* Preview Assets.xcassets */; };
+		164688D0268E67CC0002F6B2 /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164688CF268E67CC0002F6B2 /* ScreenRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		164688C6268E67B00002F6B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		164688C8268E67B00002F6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		164688C9268E67B00002F6B2 /* SlowAndSteady.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlowAndSteady.entitlements; sourceTree = "<group>"; };
+		164688CF268E67CC0002F6B2 /* ScreenRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				164688BF268E67AF0002F6B2 /* SlowAndSteadyApp.swift */,
 				164688C1268E67AF0002F6B2 /* ContentView.swift */,
+				164688CF268E67CC0002F6B2 /* ScreenRecorder.swift */,
 				164688C3268E67B00002F6B2 /* Assets.xcassets */,
 				164688C8268E67B00002F6B2 /* Info.plist */,
 				164688C9268E67B00002F6B2 /* SlowAndSteady.entitlements */,
@@ -142,6 +145,7 @@
 			files = (
 				164688C2268E67AF0002F6B2 /* ContentView.swift in Sources */,
 				164688C0268E67AF0002F6B2 /* SlowAndSteadyApp.swift in Sources */,
+				164688D0268E67CC0002F6B2 /* ScreenRecorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
